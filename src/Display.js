@@ -51,6 +51,16 @@ function Display() {
                     activeClassName = "activeBttn"
                 />
                 {displayPhotos}
+                <ReactPaginate 
+                    previousLabel= "Prev"
+                    nextLabel= "Next"
+                    pageCount={pageCount}
+                    onPageChange={onPageChange}
+                    containerClassName = "paginationBttns"
+                    previousLinkClassName = "previousBttn"
+                    nextLinkClassName = "nextBttn"
+                    activeClassName = "activeBttn"
+                />
             </CardGroup>
         </>
     )

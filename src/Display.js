@@ -50,7 +50,9 @@ function Display() {
                     nextLinkClassName = "nextBttn"
                     activeClassName = "activeBttn"
                 />
+                <br />
                 {displayPhotos}
+                <br />
                 <ReactPaginate 
                     previousLabel= "Prev"
                     nextLabel= "Next"
